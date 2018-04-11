@@ -1,0 +1,7 @@
+Here are some cases where your program will have problem:
+
+- your user is a greek from the antiquity. His birth year is '-234'
+- your user is from the far futur, his birth year is '23498345'
+- your user doesn't type very well and has typed '199O' with a O instead of a 0
+- your user has written his birth year in letter! 'nineteen seventythree'
+- your user is a hacker and he tried a list of strange characters for his birth year 'Ç*@\n'
