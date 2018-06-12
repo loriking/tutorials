@@ -2,5 +2,5 @@
 
 
 - [x] Your first program in python: Where is my birth year in Pi?
-- [ ] How many rainbow in Alice in wonderlands?
+- [ ] How many rainbows in Alice in Wonderland?
 
