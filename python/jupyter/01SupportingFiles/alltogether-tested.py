@@ -7,8 +7,8 @@ birth_year = input("What is your birth year?: ")
 #check that the birth year is correct
 while not( birth_year.isdigit() and
           len(birth_year) == 4):
-    print("{} is not a valid birth year. "
-          "Only a postive number with 4 digits is accepted.".format(birth_year))
+    print(f"{birth_year} is not a valid birth year. "
+          "Only a postive number with 4 digits is accepted.")
     birth_year = input("What is your birth year?: ")
 
 
@@ -19,6 +19,6 @@ while (i < len(PI) - 3 and
     i += 1
 
 if i == len(PI) - 3: # we have reach the end of Pi!
-    print("{} has not been found in the first {} digits of Pi.".format(birth_year,len(PI)-2))
+    print(f"{birth_year} has not been found in the first {len(PI)-2} digits of Pi.")
 else:  # we have found our birth year in Pi!
-    print("Found it! It's {}".format(i))
+    print(f"Found it! It's {i}")
